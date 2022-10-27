@@ -1,0 +1,55 @@
+.user_details_container {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 80vh;
+	font-size: 1.8vw;
+}
+.user_details {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 3vw;
+	width: 40%;
+	background-color: black;
+	color: aliceblue;
+}
+.bank_details {
+	width: 40%;
+	display: flex;
+	gap: 30px;
+	padding: 3vw;
+	background-color: black;
+	color: aliceblue;
+}
+.user_info {
+	display: flex;
+	flex-direction: column;
+	gap: 4vh;
+}
+.bank_details p {
+	text-transform: capitalize;
+}
+span {
+	display: flex;
+	justify-content: space-between;
+}
+.bank_details {
+	display: flex;
+	flex-direction: column;
+}
+.accounts {
+	display: flex;
+	justify-content: center;
+}
+.accounts div {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	border: 1px solid red;
+}
+.column_bank_names {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
